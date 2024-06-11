@@ -1,0 +1,56 @@
+.head{
+    text-align: center;
+}
+
+
+#main {
+  background-color: rgb(157, 240, 240);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.note {
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 55vh;
+    height: 350px;
+
+
+}
+
+#main textarea {
+    width: 54.5vh;
+    height: 345px;
+    outline: none;
+    border: none;
+    resize: none;
+    
+}
+
+.tools {
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 55vh;
+    height: 30px;
+    background-color: rgb(172, 36, 36);
+
+}
+
+.tools i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#addbutton {
+    position: fixed;
+    right: 12px;
+    top: 55px;
+}
