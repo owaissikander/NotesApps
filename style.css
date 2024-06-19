@@ -1,36 +1,68 @@
-.head{
+.head {
     text-align: center;
 }
 
 
 #main {
-  background-color: rgb(157, 240, 240);
+    background-color: rgb(157, 240, 240);
     width: 100%;
     height: 100vh;
 
     display: flex;
     flex-wrap: wrap;
-    
+
 
 }
 
+input {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 550px;
+}
+
+/* 
+.note >.note> .tools >.untitled >.text{
+    width: 30px;
+    height: 20px;
+    background-color: brown;
+} */
+
+
+
 .note {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 20px;
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 55vh;
+    width: 45vh;
     height: 350px;
 
 
 }
 
-#main textarea {
+#untitled {
+    background-color: rgb(172, 36, 36);
+    color: black;
+    font-weight: bolder;
+    width: 150px;
+    height: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-right: 80px;
+}
+
+
+#main #content {
     width: 54.5vh;
     height: 345px;
     outline: none;
     border: none;
     resize: none;
-    
+
 }
 
 .tools {
