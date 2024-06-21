@@ -1,3 +1,15 @@
+// for search function works
+const search_user = document.getElementById('search')
+
+search_user.addEventListener('change', function () {
+    console.log(this.value)
+    var searched = notes.filter((data, ind) =>
+        data.title.value.toLowerCase().includes(this.value.toLowerCase())
+    )
+    console.log(searched)
+})
+console.log(this.value)
+
 const addbutton = document.querySelector('#addbutton')
 const main = document.querySelector('#main')
 
